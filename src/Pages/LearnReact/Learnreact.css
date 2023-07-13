@@ -1,0 +1,223 @@
+.learnReact{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+ 
+}
+.curriculumSidebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #1F305E;
+    height: 92%;
+    width: 400px;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+.curriculumContentDiv{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.948);
+    height: 80%;
+    width: 60%;
+    padding: 2%;
+    margin-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding-top: 1%;
+}
+
+.curriculumSidebarContent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 410px;
+    background-color: white;
+ 
+    padding: 2%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.weekHeader{
+    width: 98%;
+    height: 50px;
+    background-color: #1F305E;
+    color: white;
+    font-size: 22px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.weekContentDiv{
+    width: 96%;
+    height: auto;
+
+    font-size: 22px;
+    padding-left: 4%;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: space-between;
+}
+.weekContent{
+    width: 98%;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.weekContent:hover{
+    background-color: aliceblue;
+}
+.contentSummary{
+    font-size: 23px;
+    font-weight: 500;
+    
+    font-family: 'Dosis', sans-serif;
+}
+.contentDescription{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(255, 141, 100);
+    font-family: 'Inika', sans-serif;
+}
+.videodetailsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+  
+    /* background-color: rgb(26, 26, 26); */
+}
+.reactPlayerDiv{
+    width: 70%;
+    height: 100%;
+    background-color: #1F305E;
+}
+.nextprevButtonDiv{
+    width: 20%;
+    height: auto;
+    
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.nextButton{
+    height: 50px;
+    display: flex;
+    width: 100px;
+    background-color: #1F305E;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.resourceLinksDiv{
+    height: auto;
+    width: 99%;
+    background-color: #1F305E;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    gap: 5px;
+    font-size: 22px;
+    color: white;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    font-family: 'Inconsolata', sans-serif;
+}
+.contentDescriptionWelcome{
+    color: lightblue;
+    font-size: 50px!important;
+    font-weight: bold!important;
+   
+    font-family: 'Akaya Telivigala', sans-serif;
+    letter-spacing: 2px!important;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  
+
+.navbar{
+    display: none;
+}
+
+.modulelearningText{
+    font-size: 35px;
+    color: black;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+
+  @media only screen and (max-width: 900px) {
+    .curriculumSidebar{
+        display: none;
+    }
+    .curriculumContentDiv{
+        width: 96%;
+        overflow-x: hidden;
+        margin-right: 0%;
+        background-color: white;
+        height: 95%;
+    }
+    .videodetailsDiv{
+        flex-wrap: wrap;
+    }
+    .nextprevButtonDiv{
+        width: 300px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .reactPlayerDiv{
+        width: 100%;
+    }
+.resourceLinksDiv{
+    margin-top: 15%;
+    }
+    .learnReact{
+        
+        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+        
+    }
+    .navbar{
+        display: flex;
+        width: 99%;
+        padding-left: 1%;
+        height: 5%;
+        background-color: #1F305E;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .navText{
+        font-size: 30px;
+        color: white;
+        font-weight: 500;
+        font-family: 'Akaya Telivigala', sans-serif;
+        margin-left: 30%;
+    }
+    .modulelearningText{
+        font-size: 28px;
+        color: black;
+        font-family: 'Inconsolata', sans-serif;
+    }
+  }
+  
